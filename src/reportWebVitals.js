@@ -1,13 +1,51 @@
-const reportWebVitals = onPerfEntry => {
-  if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
-    });
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class reportWebVitals extends Component {
+  constructor(props) {
+    super(props);
+
   }
+
+  componentWillMount() {
+
+  }
+
+  componentDidMount() {
+
+  }
+
+  componentWillReceiveProps(nextProps) {
+
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+
+  }
+
+  componentWillUnmount() {
+
+  }
+
+  render() {
+    return (
+      <div>
+
+      </div>
+    );
+  }
+}
+
+reportWebVitals.propTypes = {
+
 };
 
 export default reportWebVitals;
